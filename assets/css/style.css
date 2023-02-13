@@ -121,6 +121,7 @@ body * {
     border: none;
     border-radius: 8px;
     outline: none;
+    text-decoration: none;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
@@ -128,6 +129,7 @@ body * {
     background: #13a2f5;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #0066ff52;
+    text-align: center;
 }
 
 @media only screen and (max-width: 400px){
