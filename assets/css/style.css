@@ -133,7 +133,7 @@ body * {
 
 @media only screen and (max-width: 900px){
     .card-login{
-        width: 85%;
+        width: 100%;
     }
 }
 
