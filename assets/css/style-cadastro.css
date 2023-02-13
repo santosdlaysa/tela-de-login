@@ -14,21 +14,15 @@ body {
     justify-content: center;
     align-items: center;
 }
-.card{
-    width: 35vw;
-    height: 100vh;
-    display: flex;
-    justify-content: column;
-    align-items: center;
-}
+
 
 .img-cadastro{
-    width: 40vw;
-    padding: 100px;
+    width: 50vw;
+    height: 30vw;
 }
 
 .card-cadastro{
-    width: 150%;
+    width: 30vw;
     display: flex;
     justify-content: column;
     align-items: center;
