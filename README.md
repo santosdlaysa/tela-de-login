@@ -1,7 +1,7 @@
 # tela-de-login
 
-Projeto de Estudo - Tela de Login e Tela de cadastro de site
+Projeto de Estudo - Web Site de cadastros de profissionais de estéticas, com tela de login e cadastro no site.
 
-<img src="/login.png" alt="tela-de-login">
+Desenvolvido em HTML5, CSS3 e Javascript.
 
-<img src="/cadastro.png" alt="tela-de-cadastro">
+<img src="/./assets/image/Imagem-login.png" alt="tela-de-login">
