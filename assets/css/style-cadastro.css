@@ -2,14 +2,59 @@
 
 body {
     margin: 0;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    background: #ffffff65;
 }
 
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 1rem;
+    margin-bottom: 30px;
+    background-color: #aeabd1;
+    box-shadow: rgba(146, 146, 173, 0.341) 0px 7px 29px 0px;
+}
+
+.header-main {
+    margin-top: 50px;
+}
+.header-main > p {
+    text-align: center;
+    color: #aeabd1;
+    font-size: 20px;
+
+}
+h2 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+    font-weight: 200;
+}
+
+.nav-text {
+    text-decoration: none;
+    color: #Ffff;
+}
 
 .main-cadastro{
     width: 100vw;
     height: 100vh;
-    background: #201b2c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,14 +74,14 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 20px 25px;
-    background: #2f2841;
+    background: #685e82;
     border-radius: 20px;
-    box-shadow: 0px 10px 40px #00000056;
+    box-shadow: 0px 10px 40px #c6c4c456;
 }
 
 .card-cadastro > h1 {
-    color: #4ab6f5;
-    font-weight: 800;
+    color: #ffffff;
+    font-weight: 750;
     margin: 0;
 }
 
@@ -53,10 +98,10 @@ body {
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: #514869;
+    background: #ffffff;
     color: #f0ffffde;
     font-size: 12pt;
-    box-shadow: 0px 10px 40px #00000056;
+    box-shadow: 0px 10px 40px #7f7f7f56;
     outline: none;
     box-sizing: border-box;
 }
@@ -82,7 +127,7 @@ body {
     font-weight: 800;
     letter-spacing: 3px;
     color: #2b134b;
-    background: #4ab6f5;
+    background: #aeabd1;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #0066ff52;
 }
