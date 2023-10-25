@@ -26,24 +26,29 @@ body * {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-left: 100px;
+    
 }
 
 .left-login > h1 {
     color: #6ac8ff;
-    font-size: 2vw;
+    font-size: 2.5vw;
     text-align: center;
 
 }
 
 .left-login-image{
-    width: 20vw;
+    width: 25vw;
 }
 
 .right-login{
-    width: 45vw;
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
     display: flex;
-    justify-content: column;
+    justify-content: center;
     align-items: center;
+    margin: 50px;
 }
 
 .card-login{
